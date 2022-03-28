@@ -15,6 +15,8 @@
       
     }
     
+
+    
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
@@ -85,7 +87,7 @@ body {
   padding: 16px;
   padding-bottom: 25px;
   text-align: center;
-  background-color: black;
+  background-color: white;
   box-shadow: 2px 2px 5px black;
   color: white;
 }
@@ -94,7 +96,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: blue;
+  background-color: black;
   box-shadow: 2px 2px 5px black;
 }
 
@@ -106,13 +108,13 @@ body {
   color: white;
 }
 
-.card2 {
+/* .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: gray;
   box-shadow: 2px 2px 5px black;
-}
+} */
 
 .image {
 
@@ -202,10 +204,10 @@ margin: 10px;
 
 
 
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
   <button data-toggle="collapse" data-target="#demo" style="box-shadow: 2px 2px 4px black;"><img src="mtn1.png" alt=""></button>
   <button data-toggle="collapse" data-target="#demo2" style="box-shadow: 2px 2px 4px black;"><img src="waves1.png" alt=""></button>
-</div>
+</div> -->
 
 <br>
 
@@ -217,9 +219,9 @@ margin: 10px;
 <br>
 
 <div class="row">
-    <div class="column" data-toggle="" data-target="#demo">
+    <div class="column" data-toggle="collapse" data-target="#demo">
       <div class="card">
-        <h3>Mountains</h3>
+        <img src="mtn1.png" alt="">
         <div id="demo" class="collapse">
           
 
@@ -228,9 +230,9 @@ margin: 10px;
       </div>
     </div>
   
-    <div class="column" data-toggle="" data-target="#demo2">
+    <div class="column" data-toggle="collapse" data-target="#demo2">
       <div class="card">
-        <h3>Beach</h3>
+        <img src="waves1.png" alt="">
         <div id="demo2" class="collapse">
           <img id="waves" src="beach.jpg" alt="">
           <img id="waves" src="beach1.jpg" alt="">
@@ -256,7 +258,7 @@ margin: 10px;
 
 <div class="row" style="width: 70%; margin: auto;">
   <div class="column" data-toggle="collapse" data-target="#demo3">
-    <div class="card">
+    <div class="card2">
       <h3>New Releases</h3>
       <div id="demo3" class="collapse">
         
@@ -267,7 +269,7 @@ margin: 10px;
   </div>
 
   <div class="column" data-toggle="collapse" data-target="#demo4">
-    <div class="card">
+    <div class="card2">
       <h3>Apparel</h3>
       <div id="demo4" class="collapse">
         <img id="waves" src="hat.jpg" alt="">
